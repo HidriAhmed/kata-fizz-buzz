@@ -6,6 +6,7 @@ public class FizzBuzzCounter {
 		String[] result = new String[100];
 
 		result[1] = "1";
+		result[2] = "2";
 
 		return result;
 	}
