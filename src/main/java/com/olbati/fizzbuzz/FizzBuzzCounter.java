@@ -6,6 +6,9 @@ public class FizzBuzzCounter {
 		String[] result = new String[101];
 
 		for (Integer i = 0; i <= 100; i++) {
+			if (((i % 3) == 0) && ((i % 5) == 0)) {
+
+			}
 			if ((i % 3) == 0) {
 				result[i] = "Fizz";
 			} else if ((i % 5) == 0) {
