@@ -46,4 +46,14 @@ public class TestFizzBuzzCounter {
 
 	}
 
+	@Test
+	public void givenIndex5_shouldReturnBuzz() {
+
+		FizzBuzzCounter counter = new FizzBuzzCounter();
+		String[] result = counter.count();
+
+		assertThat(result[5]).isEqualTo("Buzz");
+
+	}
+
 }
