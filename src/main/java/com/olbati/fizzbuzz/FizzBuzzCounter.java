@@ -9,6 +9,7 @@ public class FizzBuzzCounter {
 		result[2] = "2";
 		result[3] = "Fizz";
 		result[4] = "4";
+		result[5] = "Buzz";
 
 		return result;
 	}
