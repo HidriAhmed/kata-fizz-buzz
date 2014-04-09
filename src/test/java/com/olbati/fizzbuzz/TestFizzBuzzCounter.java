@@ -16,4 +16,14 @@ public class TestFizzBuzzCounter {
 
 	}
 
+	@Test
+	public void givenIndex2_shouldReturn2() {
+
+		FizzBuzzCounter counter = new FizzBuzzCounter();
+		String[] result = counter.count();
+
+		assertThat(result[2]).isEqualTo("2");
+
+	}
+
 }
