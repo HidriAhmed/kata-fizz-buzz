@@ -56,4 +56,14 @@ public class TestFizzBuzzCounter {
 
 	}
 
+	@Test
+	public void givenIndex32_shouldReturn32() {
+
+		FizzBuzzCounter counter = new FizzBuzzCounter();
+		String[] result = counter.count();
+
+		assertThat(result[32]).isEqualTo("32");
+
+	}
+
 }
